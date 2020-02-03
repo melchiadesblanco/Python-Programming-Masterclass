@@ -31,8 +31,11 @@ print(stringA[-5])
 print(stringA[-11])
 print(stringA[-8])
 print(stringA[-6])
+my = 1
 
 print()
+
+my = 2
 
 print(stringA[3 - len(stringA)])
 print(stringA[4 - len(stringA)])
@@ -40,3 +43,7 @@ print(stringA[9 - len(stringA)])
 print(stringA[3 - len(stringA)])
 print(stringA[6 - len(stringA)])
 print(stringA[8 - len(stringA)])
+
+
+stringA = 'Norwegian Blue'
+print(stringA[10:10])
